@@ -37,6 +37,6 @@ setup(
         ]
     },
     install_requires=[
-        'python-slugify',
+        'python-slugify>=1.2.6',
     ]
 )

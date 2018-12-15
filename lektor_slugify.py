@@ -8,6 +8,6 @@ class SlugifyPlugin(Plugin):
     description = u'Lektor plugin that adds a slugify Jinja filter.'
 
     def on_setup_env(self, **extra):
-        def slug_filter(txt):
-            return slugify(txt)
+        def slug_filter(txt, **kwargs):
+            return slugify(txt, **kwargs)
         self.env.jinja_env.filters['slug'] = slug_filter
