@@ -1,5 +1,8 @@
 # lektor-slugify
 
+[![PyPI version](https://badge.fury.io/py/lektor-slugify.svg)](https://pypi.org/project/lektor-slugify/)
+<a href="https://github.com/ambv/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+
 This is a Lektor plugin that provides a simple template filter that transforms a (unicode) string into a slug.
 
 Usage: `{{ var|slug }}`
