@@ -25,7 +25,7 @@ setup(
     name="lektor-slugify",
     py_modules=["lektor_slugify"],
     url="https://github.com/terminal-labs/lektor-slugify",
-    version="0.3",
+    version="0.4",
     classifiers=[
         "Environment :: Plugins",
         "Environment :: Web Environment",
